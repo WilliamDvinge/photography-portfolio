@@ -445,43 +445,20 @@ footer {
 }
 
 #myFooter .fa {
-    font-size: 30px;
     margin-right: 15px;
     margin-left: 20px;
     background-color: white;
     color: #182c39;
-    border-radius: 51%;
     padding: 10px;
-    height: 50px;
-    width: 50px;
+    padding-bottom: 8px;
+    border-radius: 50%;
     text-align: center;
-    line-height: 31px;
-    text-decoration: none;
-    transition: color 0.2s;
+    border: 2px solid black;
+    transition: background-color 0.5s;
 }
 
-#myFooter .fa-facebook:hover {
-    color: #2b55ff;
-}
-
-#myFooter .fa-facebook:focus {
-    color: #2b55ff;
-}
-
-#myFooter .fa-google-plus:hover {
-    color: red;
-}
-
-#myFooter .fa-google-plus:focus {
-    color: red;
-}
-
-#myFooter .fa-instagram:hover {
-    color: #DD2A7B;
-}
-
-#myFooter .fa-instagram:focus {
-    color: #DD2A7B;
+#myFooter .fa:hover{
+    background-color: #c0a672;
 }
 
 @media screen and (max-width: 767px) {
