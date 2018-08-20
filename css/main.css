@@ -1,0 +1,495 @@
+
+/* -------------------------------- 
+
+Basic style
+
+-------------------------------- */
+
+.cd-section {
+    /* vertically align its content*/
+    display: table;
+    width: 100%;
+    background: black;
+}
+
+.cd-section:nth-of-type(2) {
+    background-color: white;
+}
+
+.cd-section:nth-of-type(3) {
+    background-color: white;
+}
+
+.cd-section:nth-of-type(4) {
+    background-color: white;
+}
+
+
+.cd-scroll-down {
+    opacity: 0.8;
+    position: absolute;
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 20px;
+    width: 44px;
+    height: 44px;
+    background: url(../img/cd-arrow-bottom.svg) no-repeat center center;
+    transition: opacity 1s;
+}
+
+.content-wrapper {
+    border-top: 10px solid black;
+}
+
+/* -------------------------------- 
+
+Section 1 
+
+-------------------------------- */
+
+#section1 .content-wrapper{
+    border-top: 0px;
+}
+
+#showcase {
+    background-image: url('../img/alone-architecture-buildings-220444.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    border: 10px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#showcase div {
+    padding: 10px;
+    border: 1vh solid black;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+
+/* -------------------------------- 
+
+Section 2
+
+-------------------------------- */
+
+
+/* -------------------------------- 
+
+Part 1
+
+-------------------------------- */
+
+.part1 {
+    position: relative;
+    color: black;
+    padding-bottom: 10vh;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 10px;
+    height: 100%;
+    background-color: black;
+}
+
+
+.part1-text {
+    text-align: center;
+}
+
+.part1-text h2 {
+    font-size: 25px;
+    margin: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.part1-text p {
+    font-size: 14px;
+    margin: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.part1-img img {
+    max-width: 100%;
+    height: auto !important;
+    border: 10px solid black;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+/* -------------------------------- 
+
+Part 2
+
+-------------------------------- */
+
+.part2 {
+    color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #404552;
+}
+
+.part2-imgGrid {
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+    background-color: black;
+}
+
+
+.part2-img {
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+    border-bottom: 8px solid black;
+    background-color: black;
+}
+
+.part2-img img {
+    max-width: 100%;
+    height: auto !important;
+    margin: 0;
+    padding: 0;
+}
+
+.part2-text {
+    border: 10px solid black;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* -------------------------------- 
+
+Part 3
+
+-------------------------------- */
+
+.part3-parallax {
+    /* The image used */
+    background-image: url('../img/prague-3540883_1920.jpg');
+
+    /* Full height */
+    height: 50vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.part3-parallax div {
+    text-align: center;
+}
+
+.part3-parallax div p {
+    padding: 16px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #c0a672;
+}
+
+.part3-parallax div p:nth-child(2) {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* -------------------------------- 
+
+Part 4
+
+-------------------------------- */
+
+.part4 {
+    position: relative;
+    color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 16px;
+    background-color: #4b5162
+}
+
+.instaimg {
+    padding-top: 10px;
+}
+
+.instaimg div {
+    margin: 5px;
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+.instaimg div img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.instaimg img:hover {
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
+
+/* -------------------------------- 
+
+Part 5
+
+-------------------------------- */
+
+
+.part5-parallax {
+    background-image: url('../img/architecture-building-business-302769.jpg');
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.part5-parallax div {
+    text-align: center;
+}
+
+.part5-parallax div p {
+    padding: 15px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.part5-parallax div p:nth-child(2) {
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* -------------------------------- 
+
+Media Queries 
+
+-------------------------------- */
+
+@media only screen and (min-width: 992px) {
+    .part1 {
+        padding-top: 10vh;
+    }
+    .part2-text {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .part2-text {
+        line-height: 130px;
+    }
+}
+
+
+/* -------------------------------- 
+
+Section 3
+
+-------------------------------- */
+
+.S3-part1 {
+    padding-top: 10vh;
+    position: relative;
+    color: black;
+    padding-bottom: 10vh;
+    border-bottom: 10px solid black;
+}
+
+.S3-part1-text {
+    text-align: left;
+}
+
+.S3-part1-text h2 {
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.S3-part1-text p:nth-of-type(1) {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: gray;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.S3-part1-text p:nth-of-type(2) {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    color: #c0a672;
+}
+
+.S3-part1-text p:nth-of-type(3) {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.S3-part1-img {
+    text-align: center;
+    opacity: 0.8;
+}
+
+.S3-part1-img img {
+    text-align: center;
+    max-width: 100%;
+    height: auto !important;
+    border: 5px solid white;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.60);
+}
+
+/* -------------------------------- 
+
+Section 4
+
+-------------------------------- */
+
+#section4{
+    margin-bottom: 100vh;
+}
+
+footer {
+  background-image: url('../img/alone-architecture-buildings-220444.jpg');
+    background-size: cover;
+    background-position: center;
+  color: white;
+    height: 100vh;
+  padding: 40px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1; }
+  
+#myFooter .row {
+    margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+    position: absolute;
+    bottom: 0px;
+    background-color: #10222e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+.btn-send{
+   background-color:#c0a672;; 
+}
+
+#myFooter .container {
+    width: auto;
+}
+
+#myFooter .social-networks {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#myFooter .fa {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #182c39;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover {
+    color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-google-plus:hover {
+    color: red;
+}
+
+#myFooter .fa-google-plus:focus {
+    color: red;
+}
+
+#myFooter .fa-instagram:hover {
+    color: #DD2A7B;
+}
+
+#myFooter .fa-instagram:focus {
+    color: #DD2A7B;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
