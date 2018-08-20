@@ -391,7 +391,7 @@ Section 4
 -------------------------------- */
 
 #section4 {
-    margin-bottom: 100vh;
+    margin-bottom: 100%;
 }
 
 footer {
@@ -399,7 +399,7 @@ footer {
     background-size: cover;
     background-position: center;
     color: white;
-    height: 100vh;
+    height: 100%;
     padding: 40px 0;
     position: fixed;
     bottom: 0;
