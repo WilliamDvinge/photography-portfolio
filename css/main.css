@@ -428,7 +428,6 @@ footer {
 
 .btn-send {
     background-color: #c0a672;
-    ;
 }
 
 #myFooter .container {
@@ -488,3 +487,57 @@ footer {
         background-attachment: inherit;
     }
 }
+
+
+@media screen and (max-width: 1100px) {
+    #showcase {
+        background-attachment: inherit;
+    }
+
+    .part3-parallax {
+        background-attachment: inherit;
+    }
+
+    .part5-parallax {
+        background-attachment: inherit;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (orientation: landscape) {
+    
+    #section4 {
+    margin-bottom: 0
+}
+
+footer {
+    height: 100%;
+    padding: 0px;
+    padding-top: 30px;   
+    position: inherit;
+    z-index: 0;
+}
+
+
+#myFooter .footer-copyright {
+    margin-top: 20px;
+    position: inherit;
+    background-color: #10222e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+#myFooter .social-networks {
+    position: inherit;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+}
+
+
+
+
+

@@ -83,11 +83,13 @@ Navigation trigger - visible on small devices only
 .cd-nav-trigger span::after {
   bottom: -9px;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 850px) {
   .cd-nav-trigger {
     display: none;
   }
 }
+
+
 
 /* -------------------------------- 
 
@@ -166,7 +168,7 @@ Vertical navigation
   transform: rotate(135deg);
   bottom: 0;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 850px) {
   .cd-vertical-nav {
     /* reset style */
     right: 0;
